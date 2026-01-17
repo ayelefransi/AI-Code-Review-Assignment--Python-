@@ -1,8 +1,8 @@
 # AI Code Review Assignment (Python)
 
 ## Candidate
-- Name:Fransi Ayele
-- Approximate time spent: 45 minutes
+- Name: Fransi Ayele
+- Approximate time spent: 75 minutes
 
 ---
 
@@ -35,7 +35,7 @@ See `correct_task1.py`
 
 > Note: The original AI-generated code is preserved in `task1.py`.
 
- ### Testing Considerations
+### Testing Considerations
 If i were to test this function, I would test mixed cancelled/ non-cancelled orders, empty input, all-cancelled cases, and malformed order entries to ensure correctness and stability.
 
 ## 3) Explanation Review & Rewrite
@@ -52,9 +52,9 @@ If i were to test this function, I would test mixed cancelled/ non-cancelled ord
 - Returns 0 if no valid orders exist. 
 
 ## 4) Final Judgment
--Decision: Request Changes
--Justification: Produces incorrect results and can fail on valid input.
--Confidence & unknowns: High confidence; behavior depends on upstream data quality.
+- Decision: Request Changes
+- Justification: Produces incorrect results and can fail on valid input.
+- Confidence & unknowns: High confidence; behavior depends on upstream data quality.
 
 ---
 
@@ -85,9 +85,9 @@ If i were to test this function, I would test mixed cancelled/ non-cancelled ord
 
 #### Corrected code
 
-See correct_task2.py
+See `correct_task2.py`
 
-> Note: The original AI-generated code is preserved in task2.py.
+> Note: The original AI-generated code is preserved in `task2.py`.
 
 ### Testing Considerations
 
@@ -110,9 +110,9 @@ If I were to test this function, I would focus on valid emails, common invalid f
 
 ### 4) Final Judgment
 
--Decision: Request Changes
--Justification: Does not truly validate emails and can crash on realistic input.
--Confidence & unknowns: High confidence; RFC-level validation intentionally excluded.
+- Decision: Request Changes
+- Justification: Does not truly validate emails and can crash on realistic input.
+- Confidence & unknowns: High confidence; RFC-level validation intentionally excluded.
 
 ---
 
